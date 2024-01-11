@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1{
+           text-align: center;
+           position: relative;
+        }
+        img {
+            position: absolute;
+            top:0px;
+            left:200px ;
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+
+        }
+
+        img:nth-child(2) {
+            animation-delay: 1s;
+        }
+
+        img:nth-child(3) {
+            animation-delay: 2s;
+        }
+
+        img:nth-child(4) {
+            animation-delay: 3s;
+        }
+
+        img:nth-child(5) {
+            animation-delay: 4s;
+        }
+        img:nth-child(6) {
+            animation-delay: 5s;
+        }
+        img:nth-child(7) {
+            animation-delay: 6s;
+        }
+        img:nth-child(8) {
+            animation-delay: 7s;
+        }
+
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="item1">
+            <img src="../Screenshot (194).png"  id="s1"height="500px" width="800px">
+            <img src="../Screenshot (190).png" height="500px" width="800px">
+            <img src="../Screenshot (193).png" height="500px" width="800px">
+            <img src="../Screenshot (191).png" height="500px" width="800px"> 
+            <img src="../Screenshot (195).png" height="500px" width="800px">
+            <img src="../Screenshot (197).png"   height="500px" width="800px">
+            <img src="../Screenshot (192).png"   height="500px" width="800px">
+            <img src="../Screenshot (198).png"   height="500px" width="800px">
+        </div>
+</body>
+</html>
